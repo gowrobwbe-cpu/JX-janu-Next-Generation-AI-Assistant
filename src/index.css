@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+:root {
+  --accent: #00f2ff;
+  --accent-rgb: 0, 242, 255;
+  --accent-secondary: #7000ff;
+  --accent-secondary-rgb: 112, 0, 255;
+  --accent-glow: 0 0 16px rgba(0, 242, 255, 0.45);
+  --accent-bg: rgba(0, 242, 255, 0.08);
+  --accent-bg-hover: rgba(0, 242, 255, 0.16);
+  --accent-border: rgba(0, 242, 255, 0.22);
+  --accent-border-strong: rgba(0, 242, 255, 0.45);
+  --bg-spotlight: rgba(0, 242, 255, 0.08);
+}
+
+@layer utilities {
+  @keyframes spinSlow {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .animate-spin-slow {
+    animation: spinSlow 20s linear infinite;
+  }
+
+  .text-accent {
+    color: var(--accent);
+  }
+  .text-accent-secondary {
+    color: var(--accent-secondary);
+  }
+  .bg-accent {
+    background-color: var(--accent);
+  }
+  .bg-accent-subtle {
+    background-color: var(--accent-bg);
+  }
+  .bg-accent-secondary {
+    background-color: var(--accent-secondary);
+  }
+  .border-accent {
+    border-color: var(--accent-border);
+  }
+  .border-accent-strong {
+    border-color: var(--accent-border-strong);
+  }
+  .border-accent-color {
+    border-color: var(--accent);
+  }
+  .shadow-accent-glow {
+    box-shadow: var(--accent-glow);
+  }
+}
+

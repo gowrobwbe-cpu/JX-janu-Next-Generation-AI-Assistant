@@ -1,0 +1,6 @@
+{
+  "name": "JX — Sweet AI Companion for GØWRØB Baby",
+  "description": "Complete Android AI Companion application for GØWRØB Baby, featuring Gemini Brain, real-time voice conversation, 3D VRM Anime Avatar, full Android System Control tools, and Accessibility Service automation.",
+  "requestFramePermissions": ["microphone", "camera", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

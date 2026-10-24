@@ -1,0 +1,54 @@
+name: jx_ai_companion
+description: JX AI - Anime-inspired Android AI Companion Created by Gowrob.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Animations
+  google_fonts: ^6.1.0
+  flutter_animate: ^4.5.0
+  animated_text_kit: ^4.2.2
+  lucide_icons: ^0.257.0
+  shimmer: ^3.0.0
+
+  # AI & Network
+  google_generative_ai: ^0.4.0
+  http: ^1.2.0
+  dio: ^5.4.0
+  web_socket_channel: ^3.0.0
+
+  # Voice (STT & TTS)
+  speech_to_text: ^7.0.0
+  flutter_tts: ^4.0.2
+  permission_handler: ^11.3.1
+
+  # Security & Android Authentication
+  local_auth: ^2.2.0
+  flutter_secure_storage: ^9.0.0
+
+  # Database & Storage
+  sqflite: ^2.3.2
+  path_provider: ^2.1.2
+  shared_preferences: ^2.2.3
+
+  # Future Expansion (3D VRM Avatar, Camera & Vision)
+  camera: ^0.10.5+9
+  flutter_gl: ^0.6.0
+  webview_flutter: ^4.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/models/

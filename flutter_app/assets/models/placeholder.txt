@@ -1,0 +1,2 @@
+# JX 3D VRM Avatar Models
+Place your `jx_avatar.vrm` or GLTF/GLB models here for the real-time 3D interactive avatar renderer.
